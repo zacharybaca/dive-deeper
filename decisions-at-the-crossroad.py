@@ -3,9 +3,9 @@ You are provided with a Python script that uses conditional statements to tell i
 
 number = input("Enter a number: ")
 
-if number > 0:
+if int(number) > 0:
     print("The number is positive.")
-elif number = 0:
+elif int(number) == 0:
     print("The number is zero.")
-else number < 0:
+else:
     print("The number is negative.")
